@@ -13,9 +13,11 @@ html,body {
 }
 
 .clear {
-	zomm: 1;
+	zoom: 1;
 }
 
 .fl {
 	float: left;
 }
+
+

@@ -6,7 +6,7 @@
 	      <div class="layui-form-item">
 	        <label class="layui-form-label">帐号</label>
 	        <div class="layui-input-block">
-	          <input type="text" name="title" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input" v-model="username">
+	          <input type="text" name="title" required  lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input" v-model="username">
 	        </div>
 	      </div>
 	      <div class="layui-form-item">
@@ -17,8 +17,7 @@
 	      </div>
 	      <div class="layui-form-item">
 	        <div class="layui-input-block">
-	          <button class="layui-btn" @click="login">登录</button>
-	          <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+	          <button class="layui-btn" @click="login" style="width: 263px;">登录</button>
 	        </div>
 	      </div>
 	    </form>
